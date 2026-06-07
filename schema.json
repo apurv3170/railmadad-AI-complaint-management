@@ -1,0 +1,69 @@
+{
+  "cno": "string",
+  "train_number": "string",
+  "date_of_problem": "datetime",
+  "complaint_registered": "datetime",
+  "mail": "string",
+  "department": "string",
+  "complaint_text": "string",
+  "issues": ["string"],
+  "priority": "int",
+  "status": "string",
+  "created_at": "datetime",
+  "updated_at": "datetime"
+}
+{
+  "user_id": "string",
+  "name": "string",
+  "email": "string",
+  "role": "string",
+  "created_at": "datetime"
+}
+{
+  "department_id": "string",
+  "name": "string",
+  "contact_info": "string"
+}
+{
+  "feedback_id": "string",
+  "complaint_id": "string",
+  "user_id": "string",
+  "comments": "string",
+  "sentiment_score": "float",
+  "submitted_at": "datetime"
+}
+{
+  "media_id": "string",
+  "file_path": "string",
+  "timestamp": "datetime",
+  "geolocation": "string",
+  "complaint_id": "string"
+}
+{
+  "result_id": "string",
+  "complaint_id": "string",
+  "issue_type": "string",
+  "severity_score": "float",
+  "analysis_timestamp": "datetime"
+}
+{
+  "complaint_id": "621893105",
+  "status": "submitted",
+  "departments": ["Mechanical", "Commercial"],
+  "priority": 2
+}
+{
+  "complaint_id": "621893105",
+  "train_number": "12345",
+  "status": "in_progress",
+  "department": "Mechanical",
+  "priority": 2,
+  "issues": ["AC malfunction"]
+}
+{
+  "total_complaints": 120,
+  "resolved": 85,
+  "in_progress": 25,
+  "open": 10,
+  "avg_priority": 2.6
+}
